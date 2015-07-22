@@ -80,10 +80,10 @@ def first_poem(tweets):
 
 
 if __name__ == "__main__":
-    consumer_key = 'SRGWO9unhMYWWCEaEL5Wr0jT0'
-    consumer_secret = 'zdpasZZTaix3qEZ1lQ2Hd6AJSCHGcEKqulAvrL9pL924L2zT4M'
-    access_token = '472550556-HSWBRpN4ppz3Tp6hOb8fg6d63N6ux4ZJ7OpgiuQN'
-    access_token_secret = 'dLlwMXdUFbcbpRgRjIjlfjjzeKRWzR7fsJjTBoXhfhWZD'
+    consumer_key = ''
+    consumer_secret = ''
+    access_token = ''
+    access_token_secret = ''
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
 
